@@ -32,5 +32,5 @@ for row in date_filtered:
     else:
         dic[row[1]] = int(row[3])
 
-lon = max(dic,key=lambda x: x[1])
+lon = max(dic,key=lambda x: dic[x])
 print(f"{lon} spent the longest time, {dic[lon]} seconds, on the phone during September 2016.")

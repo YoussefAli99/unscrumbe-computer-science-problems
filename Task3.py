@@ -49,7 +49,7 @@ bangalore = list(filter(lambda x: x[0][:5]=='(080)',calls))
 for e in bangalore:
     if e[1][0]=='(':
         idx = e[1].find(')')
-        setcode.add(e[1][1:idx])
+        setcode.add(e[1][:idx+1])
     elif e[1][0] in ['9','8','7']:
         setcode.add(e[1][:4])
     else:
