@@ -2,10 +2,10 @@ The Big O notatoin foe each file:
 
 a) Task0: O(1)
 ____________________
-b) Task1: O(2n+2)
+b) Task1: O(n)
 ____________________
-c) Task2: O(2n+5)
+c) Task2: O(n)
 ____________________
-d) Task3: O(7n+nlog(n))
+d) Task3: O(nlog(n))
 ____________________
-e) Task4: O(4n+nlog(n))
+e) Task4: O(nlog(n))
