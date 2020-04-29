@@ -1,16 +1,21 @@
 The Big O notatoin for each file:
 
 a) Task0: O(1)
-The script returns the first and last record of any input given, so the Big O is 1.
+The script returns the first and last record of any input given, 
+so the Big O is 1.
 ____________________
 b) Task1: O(n)
-The script iterate over the input and add every record to a set, so it runs as much as the file's length.
+The script iterate over the input and add every record to a set, 
+so it runs as much as the file's length.
 ____________________
 c) Task2: O(n)
-This one is like Task1, it filters the input so it pass on every record and iterate over them to add the time to the dict.
+This one is like Task1, it filters the input so it pass on every record, 
+and iterate over them to add the time to the dict.
 ____________________
 d) Task3: O(nlog(n))
-Here we are using sorted function, sorted splits the input into two halfs and splits one half again until sorting all the values, so it is a nlog() notation 
+Here we are using sorted function besides iterate over the all values in the input by a for loop, 
+sorted splits the input into two halfs and splits one half again until sorting all the values, so it is a nlog(n) notation
+it should be O(nlog(n)+2n) but by approximation we can say O(nlog(n))
 ____________________
 e) Task4: O(nlog(n))
-Task4 is similar to Task3, it uses sorted function.
+Task4 is similar to Task3, it uses sorted function and a for loop and iterate over all the values.
